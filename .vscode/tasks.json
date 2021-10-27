@@ -6,7 +6,7 @@
       "command": "/usr/bin/g++",
       "args": [
         "-fdiagnostics-color=always",
-        "-std=c++11",
+        "-std=c++17",
         "-O2",
         "-Wall",
         "-g",
@@ -31,7 +31,7 @@
       "label": "g++ build active file",
       "command": "/usr/bin/g++",
       "args": [
-        "-std=c++11",
+        "-std=c++17",
         "-O2",
         "-Wall",
         "${file}",
